@@ -8,7 +8,7 @@ public class Exercicio05 {
         int numero = 1;
         int soma = 0;
 
-        while(numero <= 10) {
+        while (numero <= 10) {
 
             System.out.println("Digite um valor: ");
             numero = scan.nextInt();
