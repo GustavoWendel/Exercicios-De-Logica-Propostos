@@ -12,7 +12,7 @@ public class Exercicio13 {
         int numero;
         int contador = 0;
 
-        while (contador <=3) {
+        while (contador <= 20) {
             System.out.println("Digite um número:");
             numero = scan.nextInt();
             if (numero >= 0 && numero <= 100) {
