@@ -9,7 +9,7 @@ public class Exercicio12 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        int numero = 0;
+        int numero;
         int contador = 0;
         int par = 0;
 
