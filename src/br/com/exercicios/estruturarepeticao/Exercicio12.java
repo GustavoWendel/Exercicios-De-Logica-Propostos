@@ -22,7 +22,7 @@ public class Exercicio12 {
             if(numero % 2 == 0) {
                 par++;
             }
-        } while (contador <= 5);
+        } while (contador <= 20);
 
         System.out.println("Quantidade números pares = " + par);
     }
