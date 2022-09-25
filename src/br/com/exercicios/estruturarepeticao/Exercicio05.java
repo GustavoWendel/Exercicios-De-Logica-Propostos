@@ -12,7 +12,7 @@ public class Exercicio05 {
 
             System.out.println("Digite um valor: ");
             numero = scan.nextInt();
-            soma = soma + numero;
+            soma += numero;
         }
 
         System.out.println(soma);

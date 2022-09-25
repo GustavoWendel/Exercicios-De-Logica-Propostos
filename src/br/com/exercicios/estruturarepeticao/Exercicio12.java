@@ -10,19 +10,16 @@ public class Exercicio12 {
 
         Scanner scan = new Scanner(System.in);
         int numero;
-        int contador = 0;
         int par = 0;
 
-
-        do {
+        for (int contador1 = 0; contador1 <= 20; contador1++) {
             System.out.println();
             numero = scan.nextInt();
-            contador++;
-
-            if(numero % 2 == 0) {
+            
+            if (numero % 2 == 0) {
                 par++;
             }
-        } while (contador <= 20);
+        }
 
         System.out.println("Quantidade números pares = " + par);
     }

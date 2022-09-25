@@ -10,5 +10,9 @@ public class Exercicio01 {
             System.out.println(mensagem);
             contador++;
         }
+
+        for(int contador1 = 0; contador1 <= 20; contador1++) {
+            System.out.println(mensagem);
+        }
     }
 }

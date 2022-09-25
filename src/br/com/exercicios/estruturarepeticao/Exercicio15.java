@@ -10,7 +10,7 @@ public class Exercicio15 {
 
         Scanner scan = new Scanner(System.in);
         int n = 0;
-
+        int soma  = 0;
         int contador = 0;
 
         while (contador >= 0) {
@@ -19,15 +19,14 @@ public class Exercicio15 {
 
                 System.out.println("Digite um número inteiro: ");
                 n = scan.nextInt();
-                // Soma dos valores
-                contador = n + contador;
+                contador++;
+                soma += n;
 
             } else {
-                System.out.println("Resultado:" + contador);
+                System.out.println("Resultado: " + soma);
                 System.out.println("Fim.");
                 System.exit(0);
             }
-
         }
     }
 }

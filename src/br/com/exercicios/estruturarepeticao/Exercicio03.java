@@ -9,11 +9,14 @@ public class Exercicio03 {
         System.out.println("Digite seu nome: ");
         String nome = scan.nextLine();
 
-        int contador = 1;
-
-        while(contador < 10) {
+        /*while(contador < 10) {
             System.out.println(nome);
             contador++;
+        }*/
+
+        int contador;
+        for (contador = 1; contador < 10; contador++) {
+            System.out.println(nome);
         }
 
         System.out.println("Repetições do nome = " + contador);

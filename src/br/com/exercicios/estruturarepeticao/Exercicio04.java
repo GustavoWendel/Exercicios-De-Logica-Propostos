@@ -13,12 +13,13 @@ public class Exercicio04 {
         System.out.println("Digite um número: ");
         int numero = scan.nextInt();
 
-        int contador = 0;
-
-        while(contador < numero) {
+        /*while (contador < numero) {
             System.out.println(nome);
             contador++;
-        }
+        }*/
 
+        for(int contador = 0; contador < numero; contador++) {
+            System.out.println(nome);
+        }
     }
 }

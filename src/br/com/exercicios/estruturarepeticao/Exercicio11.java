@@ -7,16 +7,17 @@ public class Exercicio11 {
         Scanner scan = new Scanner(System.in);
 
         int numero;
+        int qtd = 0;
 
-        int count = 0;
-        do {
+        for (int contador = 0; contador <= 3; contador++) {
             System.out.println("Digite um valor: ");
             numero = scan.nextInt();
-            if (numero > 8) {
-                count = count + 1;
-            }
-        } while(count <= 20);
 
-        System.out.println("Quantidade de valores maiores que 8 = " + count);
+            if (numero > 8) {
+                qtd++;
+            }
+        }
+
+        System.out.println("Quantidade de valores maiores que 8 = " + qtd);
     }
 }
